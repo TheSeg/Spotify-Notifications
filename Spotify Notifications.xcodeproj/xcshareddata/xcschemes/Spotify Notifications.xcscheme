@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04A77B9E170FC75200A50173"
+               BlueprintIdentifier = "21DE32F11A5E00D7009FB228"
                BuildableName = "Spotify Notifications.app"
                BlueprintName = "Spotify Notifications"
+               ReferencedContainer = "container:Spotify Notifications.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "21DE33031A5E00D7009FB228"
+               BuildableName = "Spotify NotificationsTests.xctest"
+               BlueprintName = "Spotify NotificationsTests"
                ReferencedContainer = "container:Spotify Notifications.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,11 +42,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "21DE33031A5E00D7009FB228"
+               BuildableName = "Spotify NotificationsTests.xctest"
+               BlueprintName = "Spotify NotificationsTests"
+               ReferencedContainer = "container:Spotify Notifications.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04A77B9E170FC75200A50173"
+            BlueprintIdentifier = "21DE32F11A5E00D7009FB228"
             BuildableName = "Spotify Notifications.app"
             BlueprintName = "Spotify Notifications"
             ReferencedContainer = "container:Spotify Notifications.xcodeproj">
@@ -51,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04A77B9E170FC75200A50173"
+            BlueprintIdentifier = "21DE32F11A5E00D7009FB228"
             BuildableName = "Spotify Notifications.app"
             BlueprintName = "Spotify Notifications"
             ReferencedContainer = "container:Spotify Notifications.xcodeproj">
@@ -69,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04A77B9E170FC75200A50173"
+            BlueprintIdentifier = "21DE32F11A5E00D7009FB228"
             BuildableName = "Spotify Notifications.app"
             BlueprintName = "Spotify Notifications"
             ReferencedContainer = "container:Spotify Notifications.xcodeproj">
